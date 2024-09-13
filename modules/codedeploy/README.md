@@ -4,6 +4,7 @@ This Terraform module creates an AWS CodeDeploy application and deployment group
 
 ## Usage
 
+```hcl
 module "codedeploy" {
   source = "./codedeploy"
 

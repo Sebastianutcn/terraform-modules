@@ -4,6 +4,7 @@ This Terraform module creates an EC2 instance in AWS with customizable options s
 
 ## Usage
 
+```hcl
 module "ec2_instance" {
   source = "./ec2"
 

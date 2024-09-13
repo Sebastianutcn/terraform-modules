@@ -4,6 +4,7 @@ This Terraform module creates an AWS CodeBuild project.
 
 ## Usage
 
+```hcl
 module "codebuild_project" {
   source = "./codebuild_project"
 

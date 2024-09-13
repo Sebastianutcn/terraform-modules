@@ -4,6 +4,7 @@ This Terraform module sets up CloudWatch Alarms for monitoring AWS resources and
 
 ## Usage
 
+```hcl
 module "cloudwatch_sns_alerting" {
   source = "./cloudwatch_sns_alerting"
 

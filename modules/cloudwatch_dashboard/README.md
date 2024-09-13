@@ -4,6 +4,7 @@ This Terraform module creates an AWS CloudWatch Dashboard with customizable widg
 
 ## Usage
 
+```hcl
 module "cloudwatch_dashboard" {
   source = "./cloudwatch_dashboard"
 

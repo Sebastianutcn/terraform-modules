@@ -4,6 +4,7 @@ This module creates a VPC along with public and private subnets, a NAT Gateway, 
 
 ## Usage
 
+```hcl
 module "vpc" {
   source = "./vpc"
 
