@@ -1,5 +1,5 @@
 # Terraform AWS Modules
-This repository contains reusable and customizable Terraform modules for setting up and managing various AWS resources. These modules are designed to simplify the provisioning and configuration of key infrastructure components for AWS environments, including VPC, EC2 instances, CI/CD pipelines, monitoring dashboards, and alerting mechanisms.
+This repository contains reusable and customizable Terraform modules for setting up and managing various AWS resources. These modules are designed to simplify the provisioning and configuration of key infrastructure components for AWS environments, including VPC, EC2 instances, CI/CD pipelines, monitoring dashboards, alerting mechanisms, Elastic Beanstalk environments and RDS (Relational Database Service) instances.
 
 ## Modules Overview
 ### VPC Module
@@ -22,3 +22,9 @@ This repository contains reusable and customizable Terraform modules for setting
 
 ### CloudWatch SNS Alerting Module
 - This module sets up CloudWatch alarms to monitor specific metrics and integrates with Amazon SNS for sending notifications via email, SMS, or Lambda functions.
+
+### Elastic Beanstalk Module
+- This module provisions an AWS Elastic Beanstalk environment, which is a platform-as-a-service (PaaS) for deploying and managing applications. It supports configurable parameters like application name, solution stack, environment type, scaling policies, and environment variables.
+
+### RDS Module
+- This module provisions an Amazon RDS instance, a fully managed relational database service.
