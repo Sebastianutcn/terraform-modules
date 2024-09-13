@@ -4,8 +4,8 @@ This Terraform module sets up CloudWatch Alarms for monitoring AWS resources and
 
 ## Usage
 
-module "cloudwatch_monitoring" {
-  source = "./cloudwatch_monitoring"
+module "cloudwatch_sns_alerting" {
+  source = "./cloudwatch_sns_alerting"
 
   sns_topic_name = "critical-alarms"
 
